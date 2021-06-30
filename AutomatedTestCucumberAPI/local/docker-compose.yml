@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  wiremock:
+    build: ./wiremock
+    command: --port 8443
+    ports:
+      - "8443:8443"
+    volumes:
+      - ./wiremock/stubs:/home/wiremock

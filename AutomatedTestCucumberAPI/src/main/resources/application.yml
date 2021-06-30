@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: automatedTestCucumberAPI
+
+github:
+  organization: micronaut-projects
+  repo: micronaut-core
+  url: "https://api.github.com"
