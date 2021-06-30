@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "af49e394-1389-4afd-b291-dc755a308b5b",
+		"name": "AutomatedTestCucumberAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Last Release",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/releases/last",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"releases",
+						"last"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
