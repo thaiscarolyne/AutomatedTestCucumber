@@ -4,11 +4,11 @@ When you run the api project with qa profile, it will use the wiremock URL, whic
 
 ## How to run this tests?
 
-1. Inside the api project, access the local folder
+1. Inside the **API** project, access the local folder
 2. Run this command to run a wiremock container: docker-compose up -d --build
 3. Now run the project with the profile qa
     * To do so, edit configuration for run/debug and paste this on VM options: -Dmicronaut.environments=qa
-4. Finally, open the tests project and run the tests through the Runner class
+4. Finally, open the **TEST** project and run the tests through the Runner class
 
 You should see the result saying that 1 scenario and 2 steps passed.
 
