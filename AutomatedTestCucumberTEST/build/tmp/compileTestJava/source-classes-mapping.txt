@@ -1,4 +1,0 @@
-Runner.java
- Runner
-scenarios/GitHubScenario.java
- scenarios.GitHubScenario
